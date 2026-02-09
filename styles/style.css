@@ -1,0 +1,6 @@
+@import url(./header.css);
+
+:root {
+    --cor-fundo-pesquisa: #EFEFEF;
+    --azul-escuro-texto: #090129;
+}
