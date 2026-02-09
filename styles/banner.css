@@ -1,0 +1,43 @@
+.banner {
+    background-image: url(../img/banner-background.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.banner__container-imagem {
+    background-image: url(../img/Imagem\ Hero\ Mobile.svg);
+    width: 312px;
+    height: 439px;
+}
+
+.banner__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.banner__titulo {
+    font-family: "Orbitron", sans-serif;
+    color: var(--titulo-banner-cor1);    
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 3rem;
+}
+
+.banner__titulo span {
+    color: var(--titulo-banner-cor2);
+}
+
+.banner__botao {
+    background-color: var(--bg-botao-banner);
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 1rem;
+    width: 80%;
+    border-radius: 50px;
+}
