@@ -70,8 +70,22 @@
         display: none;
     }
 
-    .cabecalho__botao-sobre-nos {
-        display: block;
+    .container__cabecalho-pt1 {
+        justify-content: space-evenly;
+        padding: 0 5rem;
+    }
+
+    .caintainer__desktop {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        column-gap: 3rem;
+        width: 60%;
+    }
+
+    .cabecalho__barra-pesquisa-desktop {
+        display: none;
     }
 
     .cabecalho__nav {
@@ -98,15 +112,7 @@
         justify-content: space-between;
     }
 
-    .caintainer__desktop {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        column-gap: 3rem;
-        width: 60%;
-    }
-
+    
     .cabecalho__barra-pesquisa-desktop {
         display: flex;
         flex-direction: row;
