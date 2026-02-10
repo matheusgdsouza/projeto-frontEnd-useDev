@@ -50,6 +50,7 @@
 
 .barra-pesquisa__campo {
     background-color: var(--cor-fundo-pesquisa);
+    border: none;
 }
 
 .barra-pesquisa__campo::placeholder {

@@ -1,10 +1,10 @@
 .banner {
-    background-image: url(../img/banner-background.png);
+    background-color: var(--azul-escuro-texto);
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    padding: 1rem;
+    padding: 1.2rem 1rem 3rem 1rem;
 }
 
 .banner__container-imagem {
@@ -40,4 +40,57 @@
     padding: 1rem;
     width: 80%;
     border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+}
+
+
+@media (min-width: 768px) {
+    .banner__container-imagem {
+        background-image: url(../img/banner.png);
+        width: 692px;
+        height: 480px;
+    }
+
+    .banner__titulo {
+        padding: 0 8rem;
+    }
+
+    .banner__botao {
+        width: 30%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .banner {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem;
+    }
+
+    .banner__container-imagem {
+        background-size: cover;
+        background-position: center;
+        width: 40%;
+        height: 400px;
+    }
+    
+    .banner__container {
+        align-items: flex-start;
+        gap: 3rem;
+        width: 40%;
+        gap: 1rem;
+    }
+
+    .banner__titulo {
+        font-size: 3.8rem;
+        text-align: left;
+        padding: 0 1rem 0 0;
+        line-height: 1.2;
+    }
+
+    .banner__botao {
+        width: 50%;
+        padding: 0.5rem;
+    }
 }
