@@ -4,7 +4,7 @@
     justify-content: center;
     row-gap: 1.5rem;
     margin: 1rem 0;
-    font-family: "Poppins", sans-serif;
+    font-family: var(--font-texto);
 }
 
 .container__cabecalho-pt1 {

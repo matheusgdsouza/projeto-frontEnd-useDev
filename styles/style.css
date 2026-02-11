@@ -3,6 +3,7 @@
 
 @import url(./header.css);
 @import url(./banner.css);
+@import url(./categorias.css);
 
 :root {
     --cor-fundo-pesquisa: #EFEFEF;
@@ -11,4 +12,6 @@
     --titulo-banner-cor2: #8FFF24;
     --bg-botao-banner: #780BF7;
     --bg-banner: #430091;
+    --font-titulo: 'Orbitron', sans-serif;
+    --font-texto: 'Poppins', sans-serif;
 }

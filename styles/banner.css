@@ -21,7 +21,7 @@
 }
 
 .banner__titulo {
-    font-family: "Orbitron", sans-serif;
+    font-family: var(--font-titulo);
     color: var(--titulo-banner-cor1);    
     font-size: 2.5rem;
     font-weight: bold;
@@ -40,7 +40,7 @@
     padding: 1rem;
     width: 80%;
     border-radius: 50px;
-    font-family: "Poppins", sans-serif;
+    font-family: var(--font-texto);
 }
 
 
